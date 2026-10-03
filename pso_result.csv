@@ -1,0 +1,2 @@
+Method,PSO_CV_Best_Accuracy,Test_Accuracy,Test_Accuracy_Percentage,Precision,Precision_Percentage,Recall,Recall_Percentage,F1_Score,F1_Percentage,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features
+PSO-Optimized Random Forest,0.6911970190964136,0.7058823529411765,70.58823529411765,0.7266942799479912,72.66942799479912,0.7058823529411765,70.58823529411765,0.6955628098980651,69.55628098980651,108,24,13,3,sqrt
