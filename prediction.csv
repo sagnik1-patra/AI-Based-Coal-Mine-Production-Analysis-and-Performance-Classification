@@ -1,0 +1,86 @@
+Name of the Mine - Company,Type of WCL - NEC - NCL - ECL - BCCL - MCL - CCL - SECL,Actual_Class_Code,Actual_Class,Random_Forest_Prediction_Code,Random_Forest_Prediction,Neural_Network_Prediction_Code,Neural_Network_Prediction,RF_Correct,NN_Correct,NN_Probability_Low,NN_Probability_Medium,NN_Probability_High
+Purnadih OCP,CCL,1,Medium,1,Medium,1,Medium,True,True,0.29182106,0.44878012,0.2593988
+Bhurkunda UG,CCL,1,Medium,1,Medium,1,Medium,True,True,0.29182106,0.44878012,0.2593988
+Grand Total NEC (CUM/YEAR),Grand Total NEC (CUM/YEAR),1,Medium,1,Medium,1,Medium,True,True,0.30891356,0.3952732,0.2958132
+Amrapali,CCL,1,Medium,1,Medium,1,Medium,True,True,0.29182106,0.44878012,0.2593988
+Amalgamated Basantimata- Dahibari,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Ambara UG,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+Jambad OCP,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Jhingurda,NCL,0,Low,0,Low,0,Low,True,True,0.577006,0.24570122,0.17729276
+Chirimiri OC,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Handidhua UG (Mine Closed),MCL,1,Medium,1,Medium,1,Medium,True,True,0.298669,0.47878325,0.22254775
+Madhabpur,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Giridih,CCL,1,Medium,1,Medium,1,Medium,True,True,0.29182106,0.44878012,0.2593988
+MKD-II/III OC,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+SDOC,CCL,2,High,1,Medium,1,Medium,False,False,0.29182106,0.44878012,0.2593988
+Total,Total,2,High,2,High,2,High,True,True,0.2582695,0.14779456,0.5939359
+Total,Total,0,Low,2,High,2,High,False,False,0.2582695,0.14779456,0.5939359
+Nichitpur,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Rajmahal OCP,ECL,0,Low,2,High,1,Medium,False,False,0.3344395,0.40862876,0.25693178
+Unknown,BCCL,1,Medium,0,Low,1,Medium,False,True,0.18165664,0.734304,0.08403942
+MEERA UG,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+AARC,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Bharatpur OCP,MCL,1,Medium,1,Medium,1,Medium,True,True,0.298669,0.47878325,0.22254775
+Bhagabandh,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Nawapara U/G,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Amalgamated NT-ST,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Moonidih,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+New Sethia O/C,WCL,0,Low,2,High,2,High,False,False,0.3165999,0.30539653,0.3780036
+Total,Total,2,High,2,High,2,High,True,True,0.2582695,0.14779456,0.5939359
+Tirap,NEC,0,Low,0,Low,0,Low,True,True,0.82461816,0.05098988,0.124391966
+Total,Total,1,Medium,2,High,2,High,False,False,0.2582695,0.14779456,0.5939359
+Giddi C,CCL,2,High,1,Medium,1,Medium,False,False,0.29182106,0.44878012,0.25939876
+Sangramgarh,ECL,1,Medium,2,High,1,Medium,False,True,0.3344395,0.40862876,0.25693178
+Gaurandih- Begunia,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Ketki,SECL,0,Low,1,Medium,1,Medium,False,False,0.30315667,0.46078575,0.23605758
+Nandgaon,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+Pinoura U/G Mine,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Amera OC,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Tawa,WCL,0,Low,2,High,2,High,False,False,0.3165999,0.30539653,0.3780036
+Sodepur,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+B Seam UG Mine,SECL,0,Low,1,Medium,1,Medium,False,False,0.30315667,0.46078575,0.23605758
+Krishnashila,NCL,0,Low,0,Low,0,Low,True,True,0.577006,0.24570122,0.17729276
+Gopalichuk,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Mudidih Colliery,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Religara OCP,CCL,1,Medium,1,Medium,1,Medium,True,True,0.29182106,0.44878012,0.2593988
+Madhusudanpur,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Total,Total,2,High,2,High,2,High,True,True,0.2582695,0.14779456,0.5939359
+Ara OCP,CCL,0,Low,1,Medium,1,Medium,False,False,0.29182106,0.44878012,0.2593988
+Durgapur Rayatwari Colliery,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+Nimcha,ECL,1,Medium,2,High,1,Medium,False,True,0.3344395,0.40862876,0.25693178
+Kuardih,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Amalgamated B.O.C.P.,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Tipong,NEC,0,Low,0,Low,0,Low,True,True,0.70436233,0.13940103,0.15623659
+Ghanoodih,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Girmint,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Bansra Colliery,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Grand Total,Grand Total,2,High,1,Medium,1,Medium,False,False,0.30891356,0.3952732,0.2958132
+Jarangdih OC,CCL,1,Medium,1,Medium,1,Medium,True,True,0.29182106,0.44878012,0.2593988
+North Chirimiri Colliery,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Junad OCM,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+Pali UG Mine,SECL,0,Low,1,Medium,1,Medium,False,False,0.30315667,0.46078575,0.23605758
+ASP,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+KDH OCP,CCL,1,Medium,1,Medium,1,Medium,True,True,0.29182106,0.44878012,0.2593988
+KolarPimpri OCM,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.37800357
+Mohanpur OCP,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Kulda OCP,MCL,1,Medium,1,Medium,1,Medium,True,True,0.298669,0.47878325,0.22254775
+Murpar UG,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+Shankarpur,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+West Chirimiri Colliery,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Jambad,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Sasti OC,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+Khandra,ECL,2,High,2,High,1,Medium,True,False,0.3344395,0.40862876,0.25693178
+Jhanjra Project Colliery,ECL,1,Medium,2,High,1,Medium,False,True,0.3344395,0.40862876,0.25693178
+Kumda 7/8 U/G Mine,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Gondegaon OCM,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+Damagoria,BCCL,0,Low,0,Low,0,Low,True,True,0.518062,0.28315315,0.19878493
+Dugga OC,SECL,0,Low,1,Medium,1,Medium,False,False,0.30315667,0.46078575,0.23605758
+NCPH OLD,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Khottadih OCP,ECL,0,Low,2,High,1,Medium,False,False,0.3344395,0.40862876,0.25693178
+West JKD UG Mine,SECL,1,Medium,1,Medium,1,Medium,True,True,0.30315667,0.46078575,0.23605758
+Madhaipur Colliery,ECL,0,Low,2,High,1,Medium,False,False,0.3344395,0.40862876,0.25693178
+Chinakuri III,ECL,1,Medium,2,High,1,Medium,False,True,0.3344395,0.40862876,0.25693178
+Inder UG to OC,WCL,2,High,2,High,2,High,True,True,0.3165999,0.30539653,0.3780036
+Kalidaspur,ECL,0,Low,2,High,1,Medium,False,False,0.3344395,0.4086288,0.25693178
+Sirka,CCL,1,Medium,1,Medium,1,Medium,True,True,0.2918211,0.44878012,0.2593988
+Behrabandh UG Mine,SECL,0,Low,1,Medium,1,Medium,False,False,0.30315667,0.46078575,0.23605758

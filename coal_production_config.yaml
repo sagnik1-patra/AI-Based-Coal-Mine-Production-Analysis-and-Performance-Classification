@@ -1,0 +1,73 @@
+project:
+  name: AI-Based Coal Mine Production Analysis and Performance Classification
+  task: Multiclass Classification
+  version: '1.0'
+paths:
+  project_directory: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis
+    and Performance Classification
+  dataset: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis and Performance
+    Classification\rs_session-241_au482_1.1.csv
+  pkl_model: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis and Performance
+    Classification\coal_production_model.pkl
+  h5_model: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis and Performance
+    Classification\coal_production_model.h5
+  preprocessor: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis and
+    Performance Classification\coal_preprocessor.pkl
+  metadata: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis and Performance
+    Classification\coal_production_metadata.json
+  processed_data: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis
+    and Performance Classification\processed_coal_production_data.csv
+  predictions: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis and
+    Performance Classification\test_predictions.csv
+columns:
+  mine: Name of the Mine - Company
+  company: Type of WCL - NEC - NCL - ECL - BCCL - MCL - CCL - SECL
+  production: Quantity for Coal production
+  features:
+  - Name of the Mine - Company
+  - Type of WCL - NEC - NCL - ECL - BCCL - MCL - CCL - SECL
+  target: Production_Performance
+preprocessing:
+  remove_empty_rows: true
+  remove_empty_columns: true
+  make_column_names_unique: true
+  categorical_missing_value: Unknown
+  categorical_encoding: OneHotEncoder
+  handle_unknown: ignore
+  neural_network_scaler: StandardScaler
+target:
+  method: Quantile-based classification
+  classes:
+    0: Low
+    1: Medium
+    2: High
+  thresholds:
+    low_medium: 0.23999999999999944
+    medium_high: 3.536666666666664
+split:
+  test_size: 0.2
+  random_state: 42
+  stratify: true
+random_forest:
+  n_estimators: 300
+  max_depth: 12
+  min_samples_split: 2
+  min_samples_leaf: 1
+  class_weight: balanced
+  accuracy: 0.7411764705882353
+neural_network:
+  hidden_layers:
+  - 128
+  - 64
+  - 32
+  dropout:
+  - 0.3
+  - 0.2
+  activation: relu
+  output_activation: softmax
+  optimizer: adam
+  loss: sparse_categorical_crossentropy
+  epochs: 150
+  batch_size: 16
+  early_stopping_patience: 15
+  accuracy: 0.6470588445663452

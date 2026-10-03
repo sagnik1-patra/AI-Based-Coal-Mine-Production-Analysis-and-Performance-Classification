@@ -1,0 +1,39 @@
+project:
+  name: AI-Based Coal Mine Production Analysis and Performance Classification
+  optimization: Artificial Immune System
+  ais_algorithm: Clonal Selection Algorithm
+dataset:
+  path: C:\Users\sagni\Downloads\AI-Based Coal Mine Production Analysis and Performance
+    Classification\rs_session-241_au482_1.1.csv
+  mine_column: Name of the Mine - Company
+  company_column: Type of WCL - NEC - NCL - ECL - BCCL - MCL - CCL - SECL
+  production_column: Quantity for Coal production
+  features:
+  - Name of the Mine - Company
+  - Type of WCL - NEC - NCL - ECL - BCCL - MCL - CCL - SECL
+target:
+  classes:
+    0: Low
+    1: Medium
+    2: High
+  low_medium_threshold: 0.23999999999999944
+  medium_high_threshold: 3.536666666666664
+ais:
+  population_size: 10
+  generations: 10
+  clone_factor: 4
+  elite_size: 4
+  random_new_antibodies: 2
+  mutation_rate: 0.35
+  best_cv_fitness: 0.6911970190964136
+  best_parameters:
+    n_estimators: 116
+    max_depth: 3
+    min_samples_split: 3
+    min_samples_leaf: 3
+    max_features: sqrt
+performance:
+  accuracy: 0.7058823529411765
+  precision: 0.7266942799479912
+  recall: 0.7058823529411765
+  f1_score: 0.6955628098980651

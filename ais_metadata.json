@@ -1,0 +1,80 @@
+{
+    "project": "AI-Based Coal Mine Production Analysis and Performance Classification",
+    "method": "Artificial Immune System optimized Random Forest",
+    "ais_algorithm": "Clonal Selection Algorithm",
+    "records": 425,
+    "features": [
+        "Name of the Mine - Company",
+        "Type of WCL - NEC - NCL - ECL - BCCL - MCL - CCL - SECL"
+    ],
+    "best_antibody": {
+        "n_estimators": 116,
+        "max_depth": 3,
+        "min_samples_split": 3,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+    },
+    "best_cross_validation_accuracy": 0.6911970190964136,
+    "test_metrics": {
+        "accuracy": 0.7058823529411765,
+        "precision": 0.7266942799479912,
+        "recall": 0.7058823529411765,
+        "f1_score": 0.6955628098980651
+    },
+    "baseline_metrics": {
+        "accuracy": 0.7411764705882353,
+        "precision": 0.7774588742107439,
+        "recall": 0.7411764705882353,
+        "f1_score": 0.7363968295781552
+    },
+    "confusion_matrix": [
+        [
+            14,
+            8,
+            7
+        ],
+        [
+            2,
+            21,
+            5
+        ],
+        [
+            1,
+            2,
+            25
+        ]
+    ],
+    "classification_report": {
+        "Low": {
+            "precision": 0.8235294117647058,
+            "recall": 0.4827586206896552,
+            "f1-score": 0.6086956521739131,
+            "support": 29.0
+        },
+        "Medium": {
+            "precision": 0.6774193548387096,
+            "recall": 0.75,
+            "f1-score": 0.711864406779661,
+            "support": 28.0
+        },
+        "High": {
+            "precision": 0.6756756756756757,
+            "recall": 0.8928571428571429,
+            "f1-score": 0.7692307692307693,
+            "support": 28.0
+        },
+        "accuracy": 0.7058823529411765,
+        "macro avg": {
+            "precision": 0.725541480759697,
+            "recall": 0.7085385878489326,
+            "f1-score": 0.6965969427281143,
+            "support": 85.0
+        },
+        "weighted avg": {
+            "precision": 0.7266942799479912,
+            "recall": 0.7058823529411765,
+            "f1-score": 0.6955628098980651,
+            "support": 85.0
+        }
+    }
+}
